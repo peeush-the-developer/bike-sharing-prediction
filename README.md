@@ -13,6 +13,10 @@ The goal here is to build an _end-to-end regression task_. Here the user will pr
 
 [Link](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)
 
+Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions, precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is 
+publicly available in http://capitalbikeshare.com/system-data. We aggregated the data on two hourly and daily basis and then 
+extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com.
+
 This dataset contains the hourly and daily count of rental bikes between years 2011 and 2012 in Capital bikeshare system with the corresponding weather and seasonal information.
 
 - Number of instances: 17389
