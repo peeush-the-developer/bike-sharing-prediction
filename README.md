@@ -75,7 +75,11 @@ I'm using conda (from Anaconda.org) to manage my virtual environments.
   $ cd tensorflow_macos/arm64
   $ /opt/homebrew/Caskroom/miniforge/base/envs/ineuron-bike-share-env/bin/pip install --upgrade --no-dependencies --force numpy-1.18.5-cp38-cp38-macosx_11_0_arm64.whl
   ```
-- Install other required libraries
+- Install other required libraries, like:
+  - `pandas` - Required for data manipulation in the memory
+  - `scikit-learn` - Required for modelling, feature engineering, selection, etc.
+  - `matplotlib` - Required for data visualizations
+  - `seaborn` - Required for data visualizations. More sophisticated than `matplotlib`.
   ```shell
   $ conda install -n ineuron-bike-share-env pandas scikit-learn matplotlib seaborn
   ```
